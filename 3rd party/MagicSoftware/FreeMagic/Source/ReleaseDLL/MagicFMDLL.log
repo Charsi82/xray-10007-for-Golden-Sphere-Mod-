@@ -1,0 +1,588 @@
+﻿Построение начато 06.07.2017 7:05:07.
+     1>Проект "x:\trunk\3rd party\MagicSoftware\FreeMagic\Source\MagicFMDLL.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание ".\ReleaseDLL\MagicFMDLL.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I.\ /IApproximation2D /IApproximation3D /IContainment2D /IContainment3D /ICore /ICore2D /ICore3D /ICurve2D /ICurve3D /IDistance2D /IDistance3D /IImageAnalysis /IInterpolation1D /IInterpolation2D /IInterpolation3D /IIntersection2D /IIntersection3D /INumerics /IProjection /ISurface /ITessellation2D /ITessellation3D /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D _AMD64_ /D _WIN64 /D NDEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D MAGICFMDLL_EXPORTS /D STRICT /D _VC80_UPGRADE=0x0700 /D _WINDLL /D _MBCS /GF /Gm- /MD /GS- /Gy- /fp:fast /Zc:wchar_t /Zc:forScope /Fo".\ReleaseDLL/" /Fd".\ReleaseDLL/vc100.pdb" /Gd /TP /errorReport:prompt Approximation2D\MgcAppr2DCircleFit.cpp Approximation2D\MgcAppr2DEllipseByArcs.cpp Approximation2D\MgcAppr2DEllipseFit.cpp Approximation2D\MgcAppr2DGaussPointsFit.cpp Approximation2D\MgcAppr2DLineFit.cpp Approximation2D\MgcAppr2DQuadraticFit.cpp Approximation3D\MgcAppr3DEllipsoidFit.cpp Approximation3D\MgcAppr3DGaussPointsFit.cpp Approximation3D\MgcAppr3DLineFit.cpp Approximation3D\MgcAppr3DParaboloidFit.cpp Approximation3D\MgcAppr3DPlaneFit.cpp Approximation3D\MgcAppr3DQuadraticFit.cpp Approximation3D\MgcAppr3DSphereFit.cpp Containment2D\MgcCont2DBox.cpp Containment2D\MgcCont2DCircleScribe.cpp Containment2D\MgcCont2DEllipse.cpp Containment2D\MgcCont2DMinBox.cpp Containment2D\MgcCont2DMinCircle.cpp Containment2D\MgcCont2DPointInPolygon.cpp Containment2D\MgcConvexHull2D.cpp Containment2D\MgcMinAreaEllipseCR.cpp Containment2D\MgcSeparatePointSets2D.cpp Containment3D\MgcCont3DBox.cpp Containment3D\MgcCont3DCapsule.cpp Containment3D\MgcCont3DCircleSphereScribe.cpp Containment3D\MgcCont3DCylinder.cpp Containment3D\MgcCont3DEllipsoid.cpp Containment3D\MgcCont3DLozenge.cpp Containment3D\MgcCont3DMinBox.cpp Containment3D\MgcCont3DMinSphere.cpp Containment3D\MgcCont3DSphere.cpp Containment3D\MgcConvexHull3D.cpp Containment3D\MgcMinVolumeEllipsoidCR.cpp Containment3D\MgcSeparatePointSets3D.cpp Core\MgcColorRGB.cpp Core\MgcCommand.cpp Core\MgcEdgeMesh.cpp Core\MgcIntervalIntersection.cpp Core\MgcMath.cpp Core\MgcMTEdge.cpp Core\MgcMTMesh.cpp Core\MgcMTTriangle.cpp Core\MgcMTVertex.cpp Core\MgcPolynomial.cpp Core\MgcTriangleMesh.cpp Core2D\MgcBox2.cpp Core2D\MgcMatrix2.cpp Core2D\MgcVector2.cpp Core3D\MgcBox3.cpp Core3D\MgcExtraSpin.cpp Core3D\MgcFrustum.cpp Core3D\MgcMatrix3.cpp Core3D\MgcPlane.cpp Core3D\MgcQuaternion.cpp Core3D\MgcTetrahedron.cpp Core3D\MgcTorus.cpp Core3D\MgcVector3.cpp Core3D\MgcXFormInterp.cpp Curve2D\MgcBezierCurve2.cpp Curve2D\MgcCubicPolynomialCurve2.cpp Curve2D\MgcCurve2.cpp Curve2D\MgcMultipleCurve2.cpp Curve2D\MgcNaturalSpline2.cpp Curve2D\MgcPolynomialCurve2.cpp Curve2D\MgcSingleCurve2.cpp Curve2D\MgcTCBSpline2.cpp Curve3D\MgcBezierCurve3.cpp Curve3D\MgcCubicPolynomialCurve3.cpp Curve3D\MgcCurve3.cpp Curve3D\MgcMultipleCurve3.cpp Curve3D\MgcNaturalSpline3.cpp Curve3D\MgcPolynomialCurve3.cpp Curve3D\MgcSingleCurve3.cpp Curve3D\MgcTCBSpline3.cpp Distance2D\MgcDist2DVecElp.cpp Distance2D\MgcDist2DVecQdr.cpp Distance3D\MgcDist3DCirCir.cpp Distance3D\MgcDist3DLinBox.cpp Distance3D\MgcDist3DLinCir.cpp Distance3D\MgcDist3DLinLin.cpp Distance3D\MgcDist3DLinPgm.cpp Distance3D\MgcDist3DLinRct.cpp Distance3D\MgcDist3DLinTri.cpp Distance3D\MgcDist3DPgmPgm.cpp Distance3D\MgcDist3DRctRct.cpp Distance3D\MgcDist3DTriPgm.cpp Distance3D\MgcDist3DTriRct.cpp Distance3D\MgcDist3DTriTri.cpp Distance3D\MgcDist3DVecBox.cpp Distance3D\MgcDist3DVecCir.cpp Distance3D\MgcDist3DVecElp.cpp Distance3D\MgcDist3DVecFrustum.cpp Distance3D\MgcDist3DVecLin.cpp Distance3D\MgcDist3DVecPgm.cpp Distance3D\MgcDist3DVecPln.cpp Distance3D\MgcDist3DVecQdr.cpp Distance3D\MgcDist3DVecRct.cpp Distance3D\MgcDist3DVecTri.cpp Distance3D\MgcEllipsoidGeodesicDist.cpp ImageAnalysis\MgcBinary2D.cpp ImageAnalysis\MgcElement.cpp ImageAnalysis\MgcImageConvert.cpp ImageAnalysis\MgcImages.cpp ImageAnalysis\MgcLattice.cpp Interpolation1D\MgcInterp1DAkima.cpp Interpolation1D\MgcInterp1DAkimaNonuniform.cpp Interpolation1D\MgcInterp1DAkimaUniform.cpp Interpolation1D\MgcInterp1DBSplineUniform.cpp Interpolation1D\MgcInterpBSplineUniform.cpp Interpolation2D\MgcInterp2DAkimaUniform.cpp Interpolation2D\MgcInterp2DBicubic.cpp Interpolation2D\MgcInterp2DBSplineUniform.cpp Interpolation2D\MgcInterp2DLinearNonuniform.cpp Interpolation2D\MgcInterp2DQdrNonuniform.cpp Interpolation2D\MgcInterp2DSphere.cpp Interpolation2D\MgcInterp2DThinPlateSpline.cpp Interpolation2D\MgcInterp2DVectorField.cpp Interpolation3D\MgcInterp3DAkimaUniform.cpp Interpolation3D\MgcInterp3DBSplineUniform.cpp Interpolation3D\MgcInterp3DThinPlateSpline.cpp Interpolation3D\MgcInterp4DBSplineUniform.cpp Interpolation3D\MgcInterpNDBSplineUniform.cpp Intersection2D\MgcIntr2DBoxBox.cpp Intersection2D\MgcIntr2DCirBox.cpp Intersection2D\MgcIntr2DCirCir.cpp Intersection2D\MgcIntr2DElpElp.cpp Intersection2D\MgcIntr2DLinCir.cpp Intersection2D\MgcIntr2DLinLin.cpp Intersection2D\MgcIntr2DTriTri.cpp Intersection3D\MgcIntr3DBoxBox.cpp Intersection3D\MgcIntr3DBoxFrustum.cpp Intersection3D\MgcIntr3DCapCap.cpp Intersection3D\MgcIntr3DLinBox.cpp Intersection3D\MgcIntr3DLinCap.cpp Intersection3D\MgcIntr3DLinCone.cpp Intersection3D\MgcIntr3DLinCyln.cpp Intersection3D\MgcIntr3DLinElp.cpp Intersection3D\MgcIntr3DLinLoz.cpp Intersection3D\MgcIntr3DLinSphr.cpp Intersection3D\MgcIntr3DLinTorus.cpp Intersection3D\MgcIntr3DLinTri.cpp Intersection3D\MgcIntr3DLozLoz.cpp Intersection3D\MgcIntr3DPlnBox.cpp Intersection3D\MgcIntr3DPlnCap.cpp Intersection3D\MgcIntr3DPlnCyln.cpp Intersection3D\MgcIntr3DPlnElp.cpp Intersection3D\MgcIntr3DPlnLoz.cpp Intersection3D\MgcIntr3DPlnPln.cpp Intersection3D\MgcIntr3DPlnSphr.cpp Intersection3D\MgcIntr3DSphrCone.cpp Intersection3D\MgcIntr3DSphrFrustum.cpp Intersection3D\MgcIntr3DSphrSphr.cpp Intersection3D\MgcIntr3DTetrTetr.cpp Intersection3D\MgcIntr3DTriBox.cpp Intersection3D\MgcIntr3DTriCone.cpp Intersection3D\MgcIntr3DTriSphr.cpp Intersection3D\MgcIntr3DTriTri.cpp Numerics\MgcBisect1.cpp Numerics\MgcBisect2.cpp Numerics\MgcBisect3.cpp Numerics\MgcEigen.cpp Numerics\MgcEuler.cpp Numerics\MgcFastFunction.cpp Numerics\MgcIntegrate.cpp Numerics\MgcLinearSystem.cpp Numerics\MgcMidpoint.cpp Numerics\MgcMinimize1D.cpp Numerics\MgcMinimizeND.cpp Numerics\MgcODE.cpp Numerics\MgcRK4.cpp Numerics\MgcRK4Adapt.cpp Numerics\MgcSpecialFunction.cpp Projection\MgcConvexClipper.cpp Projection\MgcConvexPolyhedron.cpp Projection\MgcPerspProjEllipsoid.cpp Projection\MgcQuadToQuadTransforms.cpp Surface\MgcBezierCylinder2G.cpp Surface\MgcBezierCylinder3G.cpp Surface\MgcBezierCylinderG.cpp Surface\MgcBezierPatchG.cpp Surface\MgcBezierRectangle2G.cpp Surface\MgcBezierRectangle3G.cpp Surface\MgcBezierRectangleG.cpp Surface\MgcBezierTriangle2G.cpp Surface\MgcBezierTriangle3G.cpp Surface\MgcBezierTriangleG.cpp Surface\MgcImplicitSurface.cpp Surface\MgcParametricSurface.cpp Surface\MgcQuadricSurface.cpp Surface\MgcTubeSurfaceG.cpp Tessellation2D\MgcDelaunay2D.cpp Tessellation3D\MgcDelaunay3D.cpp
+         MgcAppr2DCircleFit.cpp
+         MgcAppr2DEllipseByArcs.cpp
+         MgcAppr2DEllipseFit.cpp
+         MgcAppr2DGaussPointsFit.cpp
+         MgcAppr2DLineFit.cpp
+         MgcAppr2DQuadraticFit.cpp
+         MgcAppr3DEllipsoidFit.cpp
+         MgcAppr3DGaussPointsFit.cpp
+         MgcAppr3DLineFit.cpp
+         MgcAppr3DParaboloidFit.cpp
+         MgcAppr3DPlaneFit.cpp
+         MgcAppr3DQuadraticFit.cpp
+         MgcAppr3DSphereFit.cpp
+         MgcCont2DBox.cpp
+         MgcCont2DCircleScribe.cpp
+         MgcCont2DEllipse.cpp
+         MgcCont2DMinBox.cpp
+         MgcCont2DMinCircle.cpp
+         MgcCont2DPointInPolygon.cpp
+         MgcConvexHull2D.cpp
+     1>Containment2D\MgcConvexHull2D.cpp(210): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment2D\MgcConvexHull2D.cpp(246): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment2D\MgcConvexHull2D.cpp(249): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment2D\MgcConvexHull2D.cpp(287): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment2D\MgcConvexHull2D.cpp(287): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment2D\MgcConvexHull2D.cpp(431): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment2D\MgcConvexHull2D.cpp(431): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment2D\MgcConvexHull2D.cpp(516): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment2D\MgcConvexHull2D.cpp(555): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(537): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(533): при компиляции функции-члена "std::vector<_Ty>::vector(const std::vector<_Ty> &)" класса шаблон
+                 with
+                 [
+                     _Ty=Mgc::ConvexHull2D::SortedVertex
+                 ]
+                 x:\trunk\3rd party\magicsoftware\freemagic\source\containment2d\MgcConvexHull2D.h(121): см. ссылку на создание экземпляров класса шаблон при компиляции "std::vector<_Ty>"
+                 with
+                 [
+                     _Ty=Mgc::ConvexHull2D::SortedVertex
+                 ]
+         Compiling...
+         MgcMinAreaEllipseCR.cpp
+     1>Containment2D\MgcMinAreaEllipseCR.cpp(233): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(753): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(746): при компиляции функции-члена "void std::vector<_Ty>::reserve(unsigned __int64)" класса шаблон
+                 with
+                 [
+                     _Ty=Mgc::Vector2
+                 ]
+                 Containment2D\MgcMinAreaEllipseCR.cpp(41): см. ссылку на создание экземпляров класса шаблон при компиляции "std::vector<_Ty>"
+                 with
+                 [
+                     _Ty=Mgc::Vector2
+                 ]
+         MgcSeparatePointSets2D.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(537): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(533): при компиляции функции-члена "std::vector<_Ty>::vector(const std::vector<_Ty> &)" класса шаблон
+                 with
+                 [
+                     _Ty=Mgc::ConvexHull2D::SortedVertex
+                 ]
+                 x:\trunk\3rd party\magicsoftware\freemagic\source\containment2d\MgcConvexHull2D.h(121): см. ссылку на создание экземпляров класса шаблон при компиляции "std::vector<_Ty>"
+                 with
+                 [
+                     _Ty=Mgc::ConvexHull2D::SortedVertex
+                 ]
+         MgcCont3DBox.cpp
+         MgcCont3DCapsule.cpp
+         MgcCont3DCircleSphereScribe.cpp
+         MgcCont3DCylinder.cpp
+         MgcCont3DEllipsoid.cpp
+         MgcCont3DLozenge.cpp
+         MgcCont3DMinBox.cpp
+         MgcCont3DMinSphere.cpp
+         MgcCont3DSphere.cpp
+         MgcConvexHull3D.cpp
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\core\MgcTriangleMesh.inl(16): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\core\MgcTriangleMesh.inl(21): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\core\MgcTriangleMesh.inl(26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment3D\MgcConvexHull3D.cpp(214): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment3D\MgcConvexHull3D.cpp(285): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment3D\MgcConvexHull3D.cpp(332): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Containment3D\MgcConvexHull3D.cpp(392): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(537): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(533): при компиляции функции-члена "std::vector<_Ty>::vector(const std::vector<_Ty> &)" класса шаблон
+                 with
+                 [
+                     _Ty=Mgc::ConvexHull3D::SortedVertex
+                 ]
+                 x:\trunk\3rd party\magicsoftware\freemagic\source\containment3d\MgcConvexHull3D.h(157): см. ссылку на создание экземпляров класса шаблон при компиляции "std::vector<_Ty>"
+                 with
+                 [
+                     _Ty=Mgc::ConvexHull3D::SortedVertex
+                 ]
+         MgcMinVolumeEllipsoidCR.cpp
+         MgcSeparatePointSets3D.cpp
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\core\MgcTriangleMesh.inl(16): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\core\MgcTriangleMesh.inl(21): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\core\MgcTriangleMesh.inl(26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(537): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(533): при компиляции функции-члена "std::vector<_Ty>::vector(const std::vector<_Ty> &)" класса шаблон
+                 with
+                 [
+                     _Ty=Mgc::ConvexHull3D::SortedVertex
+                 ]
+                 x:\trunk\3rd party\magicsoftware\freemagic\source\containment3d\MgcConvexHull3D.h(157): см. ссылку на создание экземпляров класса шаблон при компиляции "std::vector<_Ty>"
+                 with
+                 [
+                     _Ty=Mgc::ConvexHull3D::SortedVertex
+                 ]
+         MgcColorRGB.cpp
+         MgcCommand.cpp
+     1>Core\MgcCommand.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): см. объявление "strcpy"
+     1>Core\MgcCommand.cpp(51): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197): см. объявление "strtok"
+     1>Core\MgcCommand.cpp(63): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197): см. объявление "strtok"
+     1>Core\MgcCommand.cpp(191): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325): см. объявление "sscanf"
+     1>Core\MgcCommand.cpp(233): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325): см. объявление "sscanf"
+     1>Core\MgcCommand.cpp(275): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325): см. объявление "sscanf"
+     1>Core\MgcCommand.cpp(319): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): см. объявление "strcpy"
+     1>Core\MgcCommand.cpp(342): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): см. объявление "strcpy"
+         MgcEdgeMesh.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+     1>Core\MgcEdgeMesh.cpp(194): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcEdgeMesh.cpp(248): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcEdgeMesh.cpp(316): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcEdgeMesh.cpp(359): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         MgcIntervalIntersection.cpp
+         MgcMath.cpp
+         MgcMTEdge.cpp
+         Compiling...
+         MgcMTMesh.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+         MgcMTTriangle.cpp
+         MgcMTVertex.cpp
+         MgcPolynomial.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(753): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(746): при компиляции функции-члена "void std::vector<_Ty>::reserve(unsigned __int64)" класса шаблон
+                 with
+                 [
+                     _Ty=Mgc::Polynomial *
+                 ]
+                 Core\MgcPolynomial.cpp(823): см. ссылку на создание экземпляров класса шаблон при компиляции "std::vector<_Ty>"
+                 with
+                 [
+                     _Ty=Mgc::Polynomial *
+                 ]
+         MgcTriangleMesh.cpp
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\core\MgcTriangleMesh.inl(16): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\core\MgcTriangleMesh.inl(21): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\core\MgcTriangleMesh.inl(26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+     1>Core\MgcTriangleMesh.cpp(362): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcTriangleMesh.cpp(416): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcTriangleMesh.cpp(484): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcTriangleMesh.cpp(579): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcTriangleMesh.cpp(631): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcTriangleMesh.cpp(744): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcTriangleMesh.cpp(745): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Core\MgcTriangleMesh.cpp(746): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         MgcBox2.cpp
+         MgcMatrix2.cpp
+         MgcVector2.cpp
+         MgcBox3.cpp
+         MgcExtraSpin.cpp
+         MgcFrustum.cpp
+         MgcMatrix3.cpp
+         MgcPlane.cpp
+         MgcQuaternion.cpp
+         MgcTetrahedron.cpp
+         MgcTorus.cpp
+         MgcVector3.cpp
+         MgcXFormInterp.cpp
+         MgcBezierCurve2.cpp
+         MgcCubicPolynomialCurve2.cpp
+         Compiling...
+         MgcCurve2.cpp
+         MgcMultipleCurve2.cpp
+         MgcNaturalSpline2.cpp
+         MgcPolynomialCurve2.cpp
+         MgcSingleCurve2.cpp
+         MgcTCBSpline2.cpp
+         MgcBezierCurve3.cpp
+         MgcCubicPolynomialCurve3.cpp
+         MgcCurve3.cpp
+         MgcMultipleCurve3.cpp
+         MgcNaturalSpline3.cpp
+         MgcPolynomialCurve3.cpp
+         MgcSingleCurve3.cpp
+         MgcTCBSpline3.cpp
+         MgcDist2DVecElp.cpp
+         MgcDist2DVecQdr.cpp
+         MgcDist3DCirCir.cpp
+         MgcDist3DLinBox.cpp
+         MgcDist3DLinCir.cpp
+         MgcDist3DLinLin.cpp
+         Compiling...
+         MgcDist3DLinPgm.cpp
+         MgcDist3DLinRct.cpp
+         MgcDist3DLinTri.cpp
+         MgcDist3DPgmPgm.cpp
+         MgcDist3DRctRct.cpp
+         MgcDist3DTriPgm.cpp
+         MgcDist3DTriRct.cpp
+         MgcDist3DTriTri.cpp
+         MgcDist3DVecBox.cpp
+         MgcDist3DVecCir.cpp
+         MgcDist3DVecElp.cpp
+         MgcDist3DVecFrustum.cpp
+         MgcDist3DVecLin.cpp
+         MgcDist3DVecPgm.cpp
+         MgcDist3DVecPln.cpp
+         MgcDist3DVecQdr.cpp
+         MgcDist3DVecRct.cpp
+         MgcDist3DVecTri.cpp
+         MgcEllipsoidGeodesicDist.cpp
+         MgcBinary2D.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+     1>ImageAnalysis\MgcBinary2D.cpp(108): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+     1>ImageAnalysis\MgcBinary2D.cpp(117): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         Compiling...
+         MgcElement.cpp
+         MgcImageConvert.cpp
+         MgcImages.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+         MgcLattice.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+     1>ImageAnalysis\MgcLattice.cpp(157): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>ImageAnalysis\MgcLattice.cpp(210): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         MgcInterp1DAkima.cpp
+         MgcInterp1DAkimaNonuniform.cpp
+         MgcInterp1DAkimaUniform.cpp
+         MgcInterp1DBSplineUniform.cpp
+         MgcInterpBSplineUniform.cpp
+         MgcInterp2DAkimaUniform.cpp
+         MgcInterp2DBicubic.cpp
+         MgcInterp2DBSplineUniform.cpp
+         MgcInterp2DLinearNonuniform.cpp
+         MgcInterp2DQdrNonuniform.cpp
+         MgcInterp2DSphere.cpp
+         MgcInterp2DThinPlateSpline.cpp
+         MgcInterp2DVectorField.cpp
+         MgcInterp3DAkimaUniform.cpp
+         MgcInterp3DBSplineUniform.cpp
+         MgcInterp3DThinPlateSpline.cpp
+         Compiling...
+         MgcInterp4DBSplineUniform.cpp
+         MgcInterpNDBSplineUniform.cpp
+         MgcIntr2DBoxBox.cpp
+         MgcIntr2DCirBox.cpp
+         MgcIntr2DCirCir.cpp
+         MgcIntr2DElpElp.cpp
+         MgcIntr2DLinCir.cpp
+         MgcIntr2DLinLin.cpp
+         MgcIntr2DTriTri.cpp
+         MgcIntr3DBoxBox.cpp
+         MgcIntr3DBoxFrustum.cpp
+         MgcIntr3DCapCap.cpp
+         MgcIntr3DLinBox.cpp
+         MgcIntr3DLinCap.cpp
+         MgcIntr3DLinCone.cpp
+         MgcIntr3DLinCyln.cpp
+         MgcIntr3DLinElp.cpp
+         MgcIntr3DLinLoz.cpp
+         MgcIntr3DLinSphr.cpp
+         MgcIntr3DLinTorus.cpp
+         Compiling...
+         MgcIntr3DLinTri.cpp
+         MgcIntr3DLozLoz.cpp
+         MgcIntr3DPlnBox.cpp
+         MgcIntr3DPlnCap.cpp
+         MgcIntr3DPlnCyln.cpp
+         MgcIntr3DPlnElp.cpp
+         MgcIntr3DPlnLoz.cpp
+         MgcIntr3DPlnPln.cpp
+         MgcIntr3DPlnSphr.cpp
+         MgcIntr3DSphrCone.cpp
+         MgcIntr3DSphrFrustum.cpp
+         MgcIntr3DSphrSphr.cpp
+         MgcIntr3DTetrTetr.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(753): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector(746): при компиляции функции-члена "void std::vector<_Ty>::reserve(unsigned __int64)" класса шаблон
+                 with
+                 [
+                     _Ty=Mgc::Tetrahedron
+                 ]
+                 Intersection3D\MgcIntr3DTetrTetr.cpp(49): см. ссылку на создание экземпляров класса шаблон при компиляции "std::vector<_Ty>"
+                 with
+                 [
+                     _Ty=Mgc::Tetrahedron
+                 ]
+         MgcIntr3DTriBox.cpp
+         MgcIntr3DTriCone.cpp
+         MgcIntr3DTriSphr.cpp
+         MgcIntr3DTriTri.cpp
+         MgcBisect1.cpp
+         MgcBisect2.cpp
+         MgcBisect3.cpp
+         Compiling...
+         MgcEigen.cpp
+         MgcEuler.cpp
+         MgcFastFunction.cpp
+         MgcIntegrate.cpp
+         MgcLinearSystem.cpp
+         MgcMidpoint.cpp
+         MgcMinimize1D.cpp
+         MgcMinimizeND.cpp
+         MgcODE.cpp
+         MgcRK4.cpp
+         MgcRK4Adapt.cpp
+         MgcSpecialFunction.cpp
+         MgcConvexClipper.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\projection\MgcConvexPolyhedron.inl(28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(136): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(153): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(183): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(205): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(217): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(404): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(459): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(498): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(507): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(517): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(538): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(539): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(540): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexClipper.cpp(554): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): см. объявление "sprintf"
+     1>Projection\MgcConvexClipper.cpp(568): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): см. объявление "sprintf"
+     1>Projection\MgcConvexClipper.cpp(578): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): см. объявление "sprintf"
+         MgcConvexPolyhedron.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+     1>x:\trunk\3rd party\magicsoftware\freemagic\source\projection\MgcConvexPolyhedron.inl(28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexPolyhedron.cpp(51): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexPolyhedron.cpp(52): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexPolyhedron.cpp(112): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexPolyhedron.cpp(113): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexPolyhedron.cpp(339): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexPolyhedron.cpp(340): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>Projection\MgcConvexPolyhedron.cpp(821): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): см. объявление "sprintf"
+     1>Projection\MgcConvexPolyhedron.cpp(831): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): см. объявление "sprintf"
+         MgcPerspProjEllipsoid.cpp
+         MgcQuadToQuadTransforms.cpp
+         MgcBezierCylinder2G.cpp
+         MgcBezierCylinder3G.cpp
+         MgcBezierCylinderG.cpp
+         MgcBezierPatchG.cpp
+         Compiling...
+         MgcBezierRectangle2G.cpp
+         MgcBezierRectangle3G.cpp
+         MgcBezierRectangleG.cpp
+         MgcBezierTriangle2G.cpp
+         MgcBezierTriangle3G.cpp
+         MgcBezierTriangleG.cpp
+         MgcImplicitSurface.cpp
+         MgcParametricSurface.cpp
+         MgcQuadricSurface.cpp
+         MgcTubeSurfaceG.cpp
+         MgcDelaunay2D.cpp
+         MgcDelaunay3D.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(x:\binaries\x64\MagicFMDLL.dll) не соответствует значению свойства выходного файла (x:\binaries\x64\MagicFM.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(MagicFMDLL) не соответствует значению свойства выходного файла (MagicFM) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"x:\binaries\x64\MagicFM.dll" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\ReleaseDLL\MagicFMDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"x:\binaries\x64\MagicFM.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"x:\libraries\x64\MagicFM.lib" /MACHINE:X64 /DLL .\ReleaseDLL/MgcAppr2DCircleFit.obj
+         .\ReleaseDLL/MgcAppr2DEllipseByArcs.obj
+         .\ReleaseDLL/MgcAppr2DEllipseFit.obj
+         .\ReleaseDLL/MgcAppr2DGaussPointsFit.obj
+         .\ReleaseDLL/MgcAppr2DLineFit.obj
+         .\ReleaseDLL/MgcAppr2DQuadraticFit.obj
+         .\ReleaseDLL/MgcAppr3DEllipsoidFit.obj
+         .\ReleaseDLL/MgcAppr3DGaussPointsFit.obj
+         .\ReleaseDLL/MgcAppr3DLineFit.obj
+         .\ReleaseDLL/MgcAppr3DParaboloidFit.obj
+         .\ReleaseDLL/MgcAppr3DPlaneFit.obj
+         .\ReleaseDLL/MgcAppr3DQuadraticFit.obj
+         .\ReleaseDLL/MgcAppr3DSphereFit.obj
+         .\ReleaseDLL/MgcCont2DBox.obj
+         .\ReleaseDLL/MgcCont2DCircleScribe.obj
+         .\ReleaseDLL/MgcCont2DEllipse.obj
+         .\ReleaseDLL/MgcCont2DMinBox.obj
+         .\ReleaseDLL/MgcCont2DMinCircle.obj
+         .\ReleaseDLL/MgcCont2DPointInPolygon.obj
+         .\ReleaseDLL/MgcConvexHull2D.obj
+         .\ReleaseDLL/MgcMinAreaEllipseCR.obj
+         .\ReleaseDLL/MgcSeparatePointSets2D.obj
+         .\ReleaseDLL/MgcCont3DBox.obj
+         .\ReleaseDLL/MgcCont3DCapsule.obj
+         .\ReleaseDLL/MgcCont3DCircleSphereScribe.obj
+         .\ReleaseDLL/MgcCont3DCylinder.obj
+         .\ReleaseDLL/MgcCont3DEllipsoid.obj
+         .\ReleaseDLL/MgcCont3DLozenge.obj
+         .\ReleaseDLL/MgcCont3DMinBox.obj
+         .\ReleaseDLL/MgcCont3DMinSphere.obj
+         .\ReleaseDLL/MgcCont3DSphere.obj
+         .\ReleaseDLL/MgcConvexHull3D.obj
+         .\ReleaseDLL/MgcMinVolumeEllipsoidCR.obj
+         .\ReleaseDLL/MgcSeparatePointSets3D.obj
+         .\ReleaseDLL/MgcColorRGB.obj
+         .\ReleaseDLL/MgcCommand.obj
+         .\ReleaseDLL/MgcEdgeMesh.obj
+         .\ReleaseDLL/MgcIntervalIntersection.obj
+         .\ReleaseDLL/MgcMath.obj
+         .\ReleaseDLL/MgcMTEdge.obj
+         .\ReleaseDLL/MgcMTMesh.obj
+         .\ReleaseDLL/MgcMTTriangle.obj
+         .\ReleaseDLL/MgcMTVertex.obj
+         .\ReleaseDLL/MgcPolynomial.obj
+         .\ReleaseDLL/MgcTriangleMesh.obj
+         .\ReleaseDLL/MgcBox2.obj
+         .\ReleaseDLL/MgcMatrix2.obj
+         .\ReleaseDLL/MgcVector2.obj
+         .\ReleaseDLL/MgcBox3.obj
+         .\ReleaseDLL/MgcExtraSpin.obj
+         .\ReleaseDLL/MgcFrustum.obj
+         .\ReleaseDLL/MgcMatrix3.obj
+         .\ReleaseDLL/MgcPlane.obj
+         .\ReleaseDLL/MgcQuaternion.obj
+         .\ReleaseDLL/MgcTetrahedron.obj
+         .\ReleaseDLL/MgcTorus.obj
+         .\ReleaseDLL/MgcVector3.obj
+         .\ReleaseDLL/MgcXFormInterp.obj
+         .\ReleaseDLL/MgcBezierCurve2.obj
+         .\ReleaseDLL/MgcCubicPolynomialCurve2.obj
+         .\ReleaseDLL/MgcCurve2.obj
+         .\ReleaseDLL/MgcMultipleCurve2.obj
+         .\ReleaseDLL/MgcNaturalSpline2.obj
+         .\ReleaseDLL/MgcPolynomialCurve2.obj
+         .\ReleaseDLL/MgcSingleCurve2.obj
+         .\ReleaseDLL/MgcTCBSpline2.obj
+         .\ReleaseDLL/MgcBezierCurve3.obj
+         .\ReleaseDLL/MgcCubicPolynomialCurve3.obj
+         .\ReleaseDLL/MgcCurve3.obj
+         .\ReleaseDLL/MgcMultipleCurve3.obj
+         .\ReleaseDLL/MgcNaturalSpline3.obj
+         .\ReleaseDLL/MgcPolynomialCurve3.obj
+         .\ReleaseDLL/MgcSingleCurve3.obj
+         .\ReleaseDLL/MgcTCBSpline3.obj
+         .\ReleaseDLL/MgcDist2DVecElp.obj
+         .\ReleaseDLL/MgcDist2DVecQdr.obj
+         .\ReleaseDLL/MgcDist3DCirCir.obj
+         .\ReleaseDLL/MgcDist3DLinBox.obj
+         .\ReleaseDLL/MgcDist3DLinCir.obj
+         .\ReleaseDLL/MgcDist3DLinLin.obj
+         .\ReleaseDLL/MgcDist3DLinPgm.obj
+         .\ReleaseDLL/MgcDist3DLinRct.obj
+         .\ReleaseDLL/MgcDist3DLinTri.obj
+         .\ReleaseDLL/MgcDist3DPgmPgm.obj
+         .\ReleaseDLL/MgcDist3DRctRct.obj
+         .\ReleaseDLL/MgcDist3DTriPgm.obj
+         .\ReleaseDLL/MgcDist3DTriRct.obj
+         .\ReleaseDLL/MgcDist3DTriTri.obj
+         .\ReleaseDLL/MgcDist3DVecBox.obj
+         .\ReleaseDLL/MgcDist3DVecCir.obj
+         .\ReleaseDLL/MgcDist3DVecElp.obj
+         .\ReleaseDLL/MgcDist3DVecFrustum.obj
+         .\ReleaseDLL/MgcDist3DVecLin.obj
+         .\ReleaseDLL/MgcDist3DVecPgm.obj
+         .\ReleaseDLL/MgcDist3DVecPln.obj
+         .\ReleaseDLL/MgcDist3DVecQdr.obj
+         .\ReleaseDLL/MgcDist3DVecRct.obj
+         .\ReleaseDLL/MgcDist3DVecTri.obj
+         .\ReleaseDLL/MgcEllipsoidGeodesicDist.obj
+         .\ReleaseDLL/MgcBinary2D.obj
+         .\ReleaseDLL/MgcElement.obj
+         .\ReleaseDLL/MgcImageConvert.obj
+         .\ReleaseDLL/MgcImages.obj
+         .\ReleaseDLL/MgcLattice.obj
+         .\ReleaseDLL/MgcInterp1DAkima.obj
+         .\ReleaseDLL/MgcInterp1DAkimaNonuniform.obj
+         .\ReleaseDLL/MgcInterp1DAkimaUniform.obj
+         .\ReleaseDLL/MgcInterp1DBSplineUniform.obj
+         .\ReleaseDLL/MgcInterpBSplineUniform.obj
+         .\ReleaseDLL/MgcInterp2DAkimaUniform.obj
+         .\ReleaseDLL/MgcInterp2DBicubic.obj
+         .\ReleaseDLL/MgcInterp2DBSplineUniform.obj
+         .\ReleaseDLL/MgcInterp2DLinearNonuniform.obj
+         .\ReleaseDLL/MgcInterp2DQdrNonuniform.obj
+         .\ReleaseDLL/MgcInterp2DSphere.obj
+         .\ReleaseDLL/MgcInterp2DThinPlateSpline.obj
+         .\ReleaseDLL/MgcInterp2DVectorField.obj
+         .\ReleaseDLL/MgcInterp3DAkimaUniform.obj
+         .\ReleaseDLL/MgcInterp3DBSplineUniform.obj
+         .\ReleaseDLL/MgcInterp3DThinPlateSpline.obj
+         .\ReleaseDLL/MgcInterp4DBSplineUniform.obj
+         .\ReleaseDLL/MgcInterpNDBSplineUniform.obj
+         .\ReleaseDLL/MgcIntr2DBoxBox.obj
+         .\ReleaseDLL/MgcIntr2DCirBox.obj
+         .\ReleaseDLL/MgcIntr2DCirCir.obj
+         .\ReleaseDLL/MgcIntr2DElpElp.obj
+         .\ReleaseDLL/MgcIntr2DLinCir.obj
+         .\ReleaseDLL/MgcIntr2DLinLin.obj
+         .\ReleaseDLL/MgcIntr2DTriTri.obj
+         .\ReleaseDLL/MgcIntr3DBoxBox.obj
+         .\ReleaseDLL/MgcIntr3DBoxFrustum.obj
+         .\ReleaseDLL/MgcIntr3DCapCap.obj
+         .\ReleaseDLL/MgcIntr3DLinBox.obj
+         .\ReleaseDLL/MgcIntr3DLinCap.obj
+         .\ReleaseDLL/MgcIntr3DLinCone.obj
+         .\ReleaseDLL/MgcIntr3DLinCyln.obj
+         .\ReleaseDLL/MgcIntr3DLinElp.obj
+         .\ReleaseDLL/MgcIntr3DLinLoz.obj
+         .\ReleaseDLL/MgcIntr3DLinSphr.obj
+         .\ReleaseDLL/MgcIntr3DLinTorus.obj
+         .\ReleaseDLL/MgcIntr3DLinTri.obj
+         .\ReleaseDLL/MgcIntr3DLozLoz.obj
+         .\ReleaseDLL/MgcIntr3DPlnBox.obj
+         .\ReleaseDLL/MgcIntr3DPlnCap.obj
+         .\ReleaseDLL/MgcIntr3DPlnCyln.obj
+         .\ReleaseDLL/MgcIntr3DPlnElp.obj
+         .\ReleaseDLL/MgcIntr3DPlnLoz.obj
+         .\ReleaseDLL/MgcIntr3DPlnPln.obj
+         .\ReleaseDLL/MgcIntr3DPlnSphr.obj
+         .\ReleaseDLL/MgcIntr3DSphrCone.obj
+         .\ReleaseDLL/MgcIntr3DSphrFrustum.obj
+         .\ReleaseDLL/MgcIntr3DSphrSphr.obj
+         .\ReleaseDLL/MgcIntr3DTetrTetr.obj
+         .\ReleaseDLL/MgcIntr3DTriBox.obj
+         .\ReleaseDLL/MgcIntr3DTriCone.obj
+         .\ReleaseDLL/MgcIntr3DTriSphr.obj
+         .\ReleaseDLL/MgcIntr3DTriTri.obj
+         .\ReleaseDLL/MgcBisect1.obj
+         .\ReleaseDLL/MgcBisect2.obj
+         .\ReleaseDLL/MgcBisect3.obj
+         .\ReleaseDLL/MgcEigen.obj
+         .\ReleaseDLL/MgcEuler.obj
+         .\ReleaseDLL/MgcFastFunction.obj
+         .\ReleaseDLL/MgcIntegrate.obj
+         .\ReleaseDLL/MgcLinearSystem.obj
+         .\ReleaseDLL/MgcMidpoint.obj
+         .\ReleaseDLL/MgcMinimize1D.obj
+         .\ReleaseDLL/MgcMinimizeND.obj
+         .\ReleaseDLL/MgcODE.obj
+         .\ReleaseDLL/MgcRK4.obj
+         .\ReleaseDLL/MgcRK4Adapt.obj
+         .\ReleaseDLL/MgcSpecialFunction.obj
+         .\ReleaseDLL/MgcConvexClipper.obj
+         .\ReleaseDLL/MgcConvexPolyhedron.obj
+         .\ReleaseDLL/MgcPerspProjEllipsoid.obj
+         .\ReleaseDLL/MgcQuadToQuadTransforms.obj
+         .\ReleaseDLL/MgcBezierCylinder2G.obj
+         .\ReleaseDLL/MgcBezierCylinder3G.obj
+         .\ReleaseDLL/MgcBezierCylinderG.obj
+         .\ReleaseDLL/MgcBezierPatchG.obj
+         .\ReleaseDLL/MgcBezierRectangle2G.obj
+         .\ReleaseDLL/MgcBezierRectangle3G.obj
+         .\ReleaseDLL/MgcBezierRectangleG.obj
+         .\ReleaseDLL/MgcBezierTriangle2G.obj
+         .\ReleaseDLL/MgcBezierTriangle3G.obj
+         .\ReleaseDLL/MgcBezierTriangleG.obj
+         .\ReleaseDLL/MgcImplicitSurface.obj
+         .\ReleaseDLL/MgcParametricSurface.obj
+         .\ReleaseDLL/MgcQuadricSurface.obj
+         .\ReleaseDLL/MgcTubeSurfaceG.obj
+         .\ReleaseDLL/MgcDelaunay2D.obj
+         .\ReleaseDLL/MgcDelaunay3D.obj
+            Создается библиотека x:\libraries\x64\MagicFM.lib и объект x:\libraries\x64\MagicFM.exp
+         Создание кода
+         Создание кода завершено
+         MagicFMDLL.vcxproj -> x:\binaries\x64\MagicFMDLL.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"x:\binaries\x64\MagicFM.dll;#2" /manifest .\ReleaseDLL\MagicFMDLL.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл ".\ReleaseDLL\MagicFMDLL.unsuccessfulbuild" удаляется.
+         Обращение к ".\ReleaseDLL\MagicFMDLL.lastbuildstate".
+     1>Построение проекта "x:\trunk\3rd party\MagicSoftware\FreeMagic\Source\MagicFMDLL.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:47.22

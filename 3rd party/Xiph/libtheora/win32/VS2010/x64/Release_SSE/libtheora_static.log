@@ -1,0 +1,72 @@
+﻿Построение начато 29.04.2017 7:03:32.
+     1>Проект "X:\trunk\3rd party\Xiph\libtheora\win32\VS2010\libtheora_static.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Release_SSE\libtheora_static.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include /I..\..\..\lib /I..\..\..\..\libogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include\ /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /GL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _BIND_TO_CURRENT_CRT_VERSION /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBTHEORA_EXPORTS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /GF /Gm- /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release_SSE\\" /Fd"x64\Release_SSE\vc100.pdb" /Gd /TC /wd4244 /wd4267 /wd4057 /wd4100 /wd4245 /errorReport:prompt ..\..\lib\analyze.c ..\..\lib\apiwrapper.c ..\..\lib\decapiwrapper.c ..\..\lib\decinfo.c ..\..\lib\decode.c ..\..\lib\dequant.c ..\..\lib\encapiwrapper.c ..\..\lib\encfrag.c ..\..\lib\encinfo.c ..\..\lib\encode.c ..\..\lib\enquant.c ..\..\lib\fdct.c ..\..\lib\fragment.c ..\..\lib\huffdec.c ..\..\lib\huffenc.c ..\..\lib\idct.c ..\..\lib\info.c ..\..\lib\internal.c ..\..\lib\mathops.c ..\..\lib\mcenc.c ..\..\lib\quant.c ..\..\lib\rate.c ..\..\lib\state.c ..\..\lib\tokenize.c ..\..\lib\x86_vc\mmxencfrag.c ..\..\lib\x86_vc\mmxfrag.c ..\..\lib\x86_vc\mmxidct.c ..\..\lib\x86_vc\mmxstate.c ..\..\lib\x86_vc\x86enc.c ..\..\lib\x86_vc\x86state.c
+         analyze.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         apiwrapper.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\apiwrapper.h(20): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory
+         decapiwrapper.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\apiwrapper.h(20): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory
+         decinfo.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\decint.h(21): fatal error C1083: Не удается открыть файл включение: theora/theoradec.h: No such file or directory
+         decode.c
+     1>..\..\lib\decode.c(20): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory
+         dequant.c
+     1>..\..\lib\dequant.c(20): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory
+         encapiwrapper.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\apiwrapper.h(20): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory
+         encfrag.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         encinfo.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+         encode.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         enquant.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         fdct.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         fragment.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+         huffdec.c
+     1>..\..\lib\huffdec.c(20): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory
+         huffenc.c
+     1>..\..\lib\huffenc.c(3): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory
+         idct.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+         info.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+         internal.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+         mathops.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\mathops.h(3): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory
+         mcenc.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         Compiling...
+         quant.c
+     1>..\..\lib\quant.c(20): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory
+         rate.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         state.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+         tokenize.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         mmxencfrag.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         mmxfrag.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+         mmxidct.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+         mmxstate.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+         x86enc.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../encint.h(22): fatal error C1083: Не удается открыть файл включение: theora/theoraenc.h: No such file or directory
+         x86state.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(24): fatal error C1083: Не удается открыть файл включение: theora/codec.h: No such file or directory
+     1>Построение проекта "X:\trunk\3rd party\Xiph\libtheora\win32\VS2010\libtheora_static.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.30

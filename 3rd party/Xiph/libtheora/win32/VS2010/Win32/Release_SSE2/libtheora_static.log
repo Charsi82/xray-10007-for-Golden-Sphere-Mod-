@@ -1,0 +1,220 @@
+﻿Построение начато 29.04.2017 7:39:18.
+     1>Проект "X:\trunk\3rd party\Xiph\libtheora\win32\VS2010\libtheora_static.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Win32\Release_SSE2\libtheora_static.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Win32\Release_SSE2\libtheora_static.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\lib /I..\..\..\..\libogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include\ /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /GL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _BIND_TO_CURRENT_CRT_VERSION /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBTHEORA_EXPORTS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /GF /Gm- /MD /GS- /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Release_SSE2\\" /Fd"Win32\Release_SSE2\vc100.pdb" /Gd /TC /wd4244 /wd4267 /wd4057 /wd4100 /wd4245 /analyze- /errorReport:prompt ..\..\lib\analyze.c ..\..\lib\apiwrapper.c ..\..\lib\bitpack.c ..\..\lib\decapiwrapper.c ..\..\lib\decinfo.c ..\..\lib\decode.c ..\..\lib\dequant.c ..\..\lib\encapiwrapper.c ..\..\lib\encfrag.c ..\..\lib\encinfo.c ..\..\lib\encode.c ..\..\lib\enquant.c ..\..\lib\fdct.c ..\..\lib\fragment.c ..\..\lib\huffdec.c ..\..\lib\huffenc.c ..\..\lib\idct.c ..\..\lib\info.c ..\..\lib\internal.c ..\..\lib\mathops.c ..\..\lib\mcenc.c ..\..\lib\quant.c ..\..\lib\rate.c ..\..\lib\state.c ..\..\lib\tokenize.c ..\..\lib\x86_vc\mmxencfrag.c ..\..\lib\x86_vc\mmxfrag.c ..\..\lib\x86_vc\mmxidct.c ..\..\lib\x86_vc\mmxstate.c ..\..\lib\x86_vc\x86enc.c ..\..\lib\x86_vc\x86state.c
+         analyze.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>..\..\lib\analyze.c(564): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\analyze.c(1550): warning C4018: >: несоответствие типов со знаком и без знака
+     1>..\..\lib\analyze.c(1589): warning C4018: >: несоответствие типов со знаком и без знака
+     1>..\..\lib\analyze.c(1729): warning C4132: OC_MV_ZERO: для константного объекта требуется инициализация
+         apiwrapper.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         bitpack.c
+     1>..\..\lib\bitpack.c(41): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\bitpack.c(61): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\bitpack.c(81): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\bitpack.c(100): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+         decapiwrapper.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         decinfo.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         decode.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         dequant.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         encapiwrapper.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         encfrag.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         encinfo.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         encode.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>..\..\lib\encode.c(577): warning C4389: !=: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(973): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(973): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(982): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(982): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(1323): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(1433): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(1442): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(1444): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(1451): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\encode.c(1453): warning C4018: <: несоответствие типов со знаком и без знака
+         enquant.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         fdct.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         fragment.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         huffdec.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         huffenc.c
+     1>..\..\lib\huffenc.c(865): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+         idct.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         info.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         internal.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mathops.c
+     1>..\..\lib\mathops.c(180): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(188): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(196): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(197): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(221): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(227): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(227): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(257): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(258): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(265): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(266): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(273): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(274): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(281): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(282): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(289): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(290): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\lib\mathops.c(293): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+         Компиляция...
+         mcenc.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>..\..\lib\mcenc.c(126): warning C4127: условное выражение является константой
+     1>..\..\lib\mcenc.c(127): warning C4127: условное выражение является константой
+     1>..\..\lib\mcenc.c(128): warning C4127: условное выражение является константой
+     1>..\..\lib\mcenc.c(129): warning C4127: условное выражение является константой
+     1>..\..\lib\mcenc.c(130): warning C4127: условное выражение является константой
+     1>..\..\lib\mcenc.c(131): warning C4127: условное выражение является константой
+     1>..\..\lib\mcenc.c(632): warning C4018: <: несоответствие типов со знаком и без знака
+         quant.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         rate.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>..\..\lib\rate.c(267): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\rate.c(364): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\rate.c(384): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\rate.c(488): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\rate.c(929): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\rate.c(1076): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\rate.c(1076): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\rate.c(1111): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\lib\rate.c(1111): warning C4018: <: несоответствие типов со знаком и без знака
+         state.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>..\..\lib\state.c(509): warning C4389: !=: несоответствие типов со знаком и без знака
+         tokenize.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mmxencfrag.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mmxfrag.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mmxidct.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mmxstate.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         x86enc.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         x86state.c
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(200): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(201): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>x:\trunk\3rd party\xiph\libtheora\lib\x86_vc\../internal.h(202): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"X:\trunk\xray\xr_3da\Win32\Release_SSE2\libtheora_static.lib" /NOLOGO /LTCG Win32\Release_SSE2\analyze.obj
+         Win32\Release_SSE2\apiwrapper.obj
+         Win32\Release_SSE2\bitpack.obj
+         Win32\Release_SSE2\decapiwrapper.obj
+         Win32\Release_SSE2\decinfo.obj
+         Win32\Release_SSE2\decode.obj
+         Win32\Release_SSE2\dequant.obj
+         Win32\Release_SSE2\encapiwrapper.obj
+         Win32\Release_SSE2\encfrag.obj
+         Win32\Release_SSE2\encinfo.obj
+         Win32\Release_SSE2\encode.obj
+         Win32\Release_SSE2\enquant.obj
+         Win32\Release_SSE2\fdct.obj
+         Win32\Release_SSE2\fragment.obj
+         Win32\Release_SSE2\huffdec.obj
+         Win32\Release_SSE2\huffenc.obj
+         Win32\Release_SSE2\idct.obj
+         Win32\Release_SSE2\info.obj
+         Win32\Release_SSE2\internal.obj
+         Win32\Release_SSE2\mathops.obj
+         Win32\Release_SSE2\mcenc.obj
+         Win32\Release_SSE2\quant.obj
+         Win32\Release_SSE2\rate.obj
+         Win32\Release_SSE2\state.obj
+         Win32\Release_SSE2\tokenize.obj
+         Win32\Release_SSE2\mmxencfrag.obj
+         Win32\Release_SSE2\mmxfrag.obj
+         Win32\Release_SSE2\mmxidct.obj
+         Win32\Release_SSE2\mmxstate.obj
+         Win32\Release_SSE2\x86enc.obj
+         Win32\Release_SSE2\x86state.obj
+         libtheora_static.vcxproj -> X:\trunk\xray\xr_3da\Win32\Release_SSE2\libtheora_static.lib
+       FinalizeBuildStatus:
+         Файл "Win32\Release_SSE2\libtheora_static.unsuccessfulbuild" удаляется.
+         Обращение к "Win32\Release_SSE2\libtheora_static.lastbuildstate".
+     1>Построение проекта "X:\trunk\3rd party\Xiph\libtheora\win32\VS2010\libtheora_static.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.62

@@ -1,0 +1,6 @@
+^x:\trunk\3rd party\MagicSoftware\FreeMagic\Source\MagicFMDLL.vcxproj
+x:\libraries\MagicFM.lib
+x:\libraries\MagicFM.exp
+^x:\trunk\3rd party\MagicSoftware\FreeMagic\Source\MagicFMDLL.vcxproj
+x:\libraries\x64\MagicFM.lib
+x:\libraries\x64\MagicFM.exp
